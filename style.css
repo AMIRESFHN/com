@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box; 
+
+}
+body{
+    background-color: #080808;
+    color: #fff;
+}
+#header{
+    width: 100%;
+    height: 200vh;
+    
+    background-image: url(Images/background.JPG);
+    background-size: cover;
+    background-position: center center;
+    
+
+}
+.container{
+    padding: 10px 10%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: wrap;
+}
+
+.logo{
+    width: 140px;
+}
