@@ -4,25 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>personal porfolio</title>
+    <title>personal portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"defer></script>
 </head>
 <body>
 <div id="header">
     <div class="container">
         <nav>
-            <img src="images/LOGO.png" class="logo">
+            <img src="images/LOGO-removebg-preview.png" class="logo">
             <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="#">about</a></li>
-                <li><a href="#">services</a></li>
-                <li><a href="#">porfolio</a></li>
-                <li><a href="#">contact</a></li>
+                <li><a href="#"data-tab-target="#home">home</a></li>
+                <li><a href="#" data-tab-target="#about">about</a></li>
+                <li><a href="#" data-tab-target="#services">services</a></li>
+                <li><a href="#" data-tab-target="#contact">contact</a></li>
+                <li><a href="#" data-tab-target="#portfolio">portfolio</a></li>
             </ul>
-
         </nav>
     </div>
-
 </div>
+<div class="tab-content">
+    <div id="home" data-tab-contant>
+        <h1>home</h1>
+        <p>this is the home</p>
+    </div>
+    <div id="about"data-tab-contant>
+        <h1>about</h1>
+        <p>my story</p>
+    </div>
+    <div id="services"data-tab-contant>
+        <h1>services</h1>
+        <p> the services we provide</p>
+    </div>
+    <div id="contact"data-tab-contant>
+        <h1>contact</h1>
+        <p>here is my contacts</p>
+    </div>
+    <div id="portfolio"data-tab-contant>
+        <h1>portfolio</h1>
+        <p>this is my portfolio</p>
+    </div>
+    
+</div>
+
+
+
+
+
 </body>
 </html>
